@@ -11,7 +11,7 @@ const Home = ({ addToCart }) => {
   return (
     <div className="home">
       {products.map((product, index) => (
-        <ProductCard key={index} id={product.id} name={product.name} price={product.price} addToCart={addToCart} />
+        <ProductCard key={index} name={product.name} price={product.price} addToCart={addToCart} />
       ))}
     </div>
   );
