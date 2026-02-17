@@ -15,3 +15,4 @@ const Header = ({ cartCount }) => {
 };
 
 export default Header;
+
