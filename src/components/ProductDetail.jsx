@@ -1,9 +1,9 @@
 import { useParams} from "react-router-dom";
 
 const products = [
-  { id: 1, name:"Product 1", price: 10, description:"This is an awesome product." },
-  { id: 2, name: "Product 2", price: 20, description:"A premium quality product." },
-  { id: 3, name: "Product 3", price: 30, description:"An excellent product."},
+  { name:"Product 1", price: 10, description:"This is an awesome product." },
+  { name: "Product 2", price: 20, description:"A premium quality product." },
+  { name: "Product 3", price: 30, description:"An excellent product."},
 ];
 
 
