@@ -1,15 +1,14 @@
-import { useParams} from "react-router-dom";
 
 const products = [
-  { name:"Product 1", price: 10, description:"This is an awesome product." },
+  { name: "Product 1", price: 10, description:"This is an awesome product." },
   { name: "Product 2", price: 20, description:"A premium quality product." },
   { name: "Product 3", price: 30, description:"An excellent product."},
 ];
 
 
 const ProductDetail = ({addToCart}) => {
-    const{id}=useParams();
-    const product = products.find((p)=> p.id === parseInt(id,10));
+    const{name}=useParams();
+    const product = products.find((p)=> p.name === parseInt(name,10));
   
 if(!product){
     return <h2 className="error-message">Product not found</h2>;
