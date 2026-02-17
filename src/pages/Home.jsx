@@ -18,3 +18,4 @@ const Home = ({ addToCart }) => {
 };
 
 export default Home;
+
